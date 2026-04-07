@@ -1,0 +1,35 @@
+{
+  "name": "claude-code-viewer",
+  "displayName": "Claude Code Viewer",
+  "publisher": "local",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onCommand:claudeCode.open",
+    "onCommand:claudeCode.startServer"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "claudeCode.open",
+        "title": "Claude Code: Open Viewer"
+      },
+      {
+        "command": "claudeCode.startServer",
+        "title": "Claude Code: Start Dev Server"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p ./",
+    "watch": "tsc -p ./ -w",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/vscode": "^1.80.0"
+  }
+}
