@@ -1,0 +1,55 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e46]
+  - generic [ref=e152]:
+    - generic [ref=e154]:
+      - heading "React Component Generator" [level=1] [ref=e156]
+      - generic [ref=e158]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e168]: Create a pricing card component with three tiers
+            - img [ref=e171]
+          - generic [ref=e174]:
+            - img [ref=e177]
+            - generic [ref=e182]:
+              - generic [ref=e185]: Creating App.jsx
+              - separator [ref=e186]
+              - generic [ref=e187]:
+                - paragraph [ref=e188]: "Done. Created a pricing card component with three tiers (Starter, Professional, Enterprise) featuring:"
+                - list [ref=e189]:
+                  - listitem [ref=e190]: Deep gradient background (slate/purple) for visual depth
+                  - listitem [ref=e191]: Featured middle tier with glow effect and scale-up
+                  - listitem [ref=e192]: Glassmorphic cards with backdrop blur
+                  - listitem [ref=e193]: Gradient text header and CTA buttons
+                  - listitem [ref=e194]: Clean feature lists with checkmark icons
+                  - listitem [ref=e195]: Responsive grid layout
+                  - listitem [ref=e196]: Smooth transitions and hover states
+        - generic [ref=e199]:
+          - textbox "Describe the React component you want to create..." [ref=e200]
+          - button [disabled] [ref=e201]:
+            - img [ref=e202]
+    - separator [ref=e205]
+    - generic [ref=e207]:
+      - generic [ref=e208]:
+        - tablist [ref=e210]:
+          - tab "Preview" [ref=e211]
+          - tab "Code" [selected] [ref=e212]
+        - generic [ref=e213]:
+          - combobox [ref=e214]:
+            - img
+            - text: "Design #62140"
+            - img
+          - button "New Design" [ref=e215]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e216]:
+            - img
+      - generic [ref=e218]:
+        - generic [ref=e221]:
+          - img [ref=e222]
+          - paragraph [ref=e224]: No files yet
+          - paragraph [ref=e225]: Files will appear here
+        - separator [ref=e226]
+        - generic [ref=e230]:
+          - img [ref=e231]
+          - paragraph [ref=e235]: Select a file to edit
+          - paragraph [ref=e236]: Choose a file from the file tree

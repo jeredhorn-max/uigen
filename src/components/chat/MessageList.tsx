@@ -63,8 +63,6 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                                 <span className="text-sm text-neutral-700">{part.reasoning}</span>
                               </div>
                             );
-                          case "tool-invocation":
-                            return <ToolCallBadge key={partIndex} toolInvocation={part.toolInvocation} />;
                           case "source":
                             return (
                               <div key={partIndex} className="mt-2 text-xs text-neutral-500">
@@ -73,8 +71,20 @@ export function MessageList({ messages, isLoading }: MessageListProps) {
                             );
                           case "step-start":
                             return partIndex > 0 ? <hr key={partIndex} className="my-3 border-neutral-200" /> : null;
-                          default:
+                          default: {
+                            // AI SDK v5: tool parts have type "tool-{toolName}"
+                            if (part.type?.startsWith("tool-")) {
+                              const toolName = part.type.split("-").slice(1).join("-");
+                              return <ToolCallBadge key={partIndex} toolInvocation={{
+                                toolCallId: part.toolCallId,
+                                toolName,
+                                args: part.input ?? {},
+                                state: part.state === "output-available" ? "result" : "call",
+                                result: part.output,
+                              }} />;
+                            }
                             return null;
+                          }
                         }
                       })}
                       {isLoading &&

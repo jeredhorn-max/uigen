@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e19]: Create a pricing card component with three tiers
+            - img [ref=e22]
+          - generic [ref=e25]:
+            - img [ref=e28]
+            - generic [ref=e33]:
+              - paragraph [ref=e35]: This is a static response. Add an ANTHROPIC_API_KEY to your .env for real generation. Creating a sample component now.
+              - separator [ref=e36]
+              - paragraph [ref=e38]: Creating the Card component.
+              - separator [ref=e39]
+              - paragraph [ref=e41]:
+                - text: Done! I've created
+                - strong [ref=e42]: Card.jsx
+                - text: and
+                - strong [ref=e43]: App.jsx
+                - text: . You can see the preview on the right.
+        - generic [ref=e46]:
+          - textbox "Describe the React component you want to create..." [ref=e47]
+          - button [disabled] [ref=e48]:
+            - img [ref=e49]
+    - separator [ref=e52]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - tablist [ref=e57]:
+          - tab "Preview" [selected] [ref=e58]
+          - tab "Code" [ref=e59]
+        - generic [ref=e60]:
+          - button "New Design" [ref=e61]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e62]:
+            - img
+      - generic [ref=e66]:
+        - img [ref=e68]
+        - heading "Welcome to UI Generator" [level=3] [ref=e70]
+        - paragraph [ref=e71]: Start building React components with AI assistance
+        - paragraph [ref=e72]: Ask the AI to create your first component to see it live here
+  - alert [ref=e73]

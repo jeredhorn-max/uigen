@@ -1,0 +1,46 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a pricing card component with three tiers
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - paragraph [ref=e73]: This is a static response. Add an ANTHROPIC_API_KEY to your .env for real generation. Creating a sample component now.
+              - separator [ref=e74]
+              - paragraph [ref=e76]: Creating the Card component.
+              - separator [ref=e77]
+              - paragraph [ref=e79]:
+                - text: Done! I've created
+                - strong [ref=e80]: Card.jsx
+                - text: and
+                - strong [ref=e81]: App.jsx
+                - text: . You can see the preview on the right.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [active] [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e86]:
+        - generic [ref=e89]:
+          - img [ref=e90]
+          - paragraph [ref=e92]: No files yet
+          - paragraph [ref=e93]: Files will appear here
+        - separator [ref=e94]
+        - generic [ref=e98]:
+          - img [ref=e99]
+          - paragraph [ref=e103]: Select a file to edit
+          - paragraph [ref=e104]: Choose a file from the file tree
+  - alert [ref=e47]

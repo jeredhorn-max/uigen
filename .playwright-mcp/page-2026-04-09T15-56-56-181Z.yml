@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e16]:
+          - generic [ref=e19]: Create a pricing card component with three tiers
+          - img [ref=e22]
+        - generic [ref=e27]:
+          - textbox "Describe the React component you want to create..." [ref=e28]
+          - button [disabled] [ref=e29]:
+            - img [ref=e30]
+    - separator [ref=e33]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - tablist [ref=e38]:
+          - tab "Preview" [selected] [ref=e39]
+          - tab "Code" [ref=e40]
+        - generic [ref=e41]:
+          - button "New Design" [ref=e42]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e43]:
+            - img
+      - iframe [ref=e46]:
+        
+  - alert [ref=e47]

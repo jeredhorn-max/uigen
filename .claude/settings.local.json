@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sdk.vercel.ai)",
+      "WebSearch",
+      "WebFetch(domain:ai-sdk.dev)",
+      "WebFetch(domain:vercel.com)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \"const p=require\\(''''@ai-sdk/provider''''\\); console.log\\(Object.keys\\(p\\)\\)\")",
+      "mcp__playwright",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_tabs",
+      "Bash(node:*)",
+      "Bash(start chrome:*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"id\\\\\":\\\\\"1\\\\\",\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"hi\\\\\",\\\\\"parts\\\\\":[{\\\\\"type\\\\\":\\\\\"text\\\\\",\\\\\"text\\\\\":\\\\\"hi\\\\\"}]}],\\\\\"files\\\\\":{}}\")",
+      "mcp__CLBS-MCP__get_historian_alarms",
+      "mcp__CLBS-MCP__search_tags",
+      "mcp__CLBS-MCP__get_tag_values",
+      "Bash(git pull:*)"
+    ]
+  }
+}
